@@ -25,3 +25,4 @@ for _output in output:
         print(f"Exit code: {host_out.exit_code}")
 end = datetime.datetime.now()
 print("All commands finished in %s" % (end-start,))
+HostArgumentError test_pssh_copy_remote_file_failure NotThisMethod
